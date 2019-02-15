@@ -7,11 +7,28 @@
 //
 
 #import "XKAppDelegate.h"
+#import <XKFileDownloader/XKFileDownloader.h>
 @implementation XKAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    
+    [XKFileDownloader Download:@"http://public.cdn.sinoxk.com/support/opencourse/KP4Zqwr1RLNT.pdf" fileName:@"TEST.pdf" progress:^(NSProgress * _Nullable progress) {
+        
+        NSLog(@"progress: %lf",progress);
+        
+    } success:^(NSString * _Nullable filePath) {
+        
+        NSLog(@"filePath: %@",filePath);
+
+        
+    } failure:^(NSError * _Nullable error) {
+        
+        NSLog(@"error: %@",error);
+
+    }];
+    
+    
     return YES;
 }
 

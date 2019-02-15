@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "XKHttpNetworkHelper.h"
+#import <XKHttpNetworkHelper/XKHttpNetworkHelper.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
