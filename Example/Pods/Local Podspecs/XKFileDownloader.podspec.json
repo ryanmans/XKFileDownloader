@@ -1,22 +1,27 @@
 {
   "name": "XKFileDownloader",
   "version": "0.1.0",
-  "summary": "A short description of XKFileDownloader.",
+  "summary": "基于AFNetworking的网络文件下载工具类库",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/RyanMans/XKFileDownloader",
+  "homepage": "https://github.com/ryanmans/XKFileDownloader",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "RyanMans": "chonglou@sinoxk.com"
+    "ALLen、LAS": "1696186412@qq.com"
   },
   "source": {
-    "git": "https://github.com/RyanMans/XKFileDownloader.git",
+    "git": "https://github.com/ryanmans/XKFileDownloader.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "XKFileDownloader/Classes/**/*"
+  "source_files": "XKFileDownloader/Classes/**/*",
+  "public_header_files": "XKFileDownloader/Classes/**/*.h",
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ]
 }

@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "XKFileDownloader.h"
 
 FOUNDATION_EXPORT double XKFileDownloaderVersionNumber;
 FOUNDATION_EXPORT const unsigned char XKFileDownloaderVersionString[];
