@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'XKFileDownloader/Classes/**/*.{h,m}'
+  s.source_files = 'Classes/*.{h,m}'
   
   # s.resource_bundles = {
   #   'XKFileDownloader' => ['XKFileDownloader/Assets/*.png']
