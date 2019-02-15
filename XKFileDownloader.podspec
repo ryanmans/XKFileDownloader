@@ -36,7 +36,7 @@ TODO: Add long description of the pod here.
   #   'XKFileDownloader' => ['XKFileDownloader/Assets/*.png']
   # }
 
-  s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'XKFileDownloader/Classes/**/*.h'
   s.frameworks = 'UIKit', 'Foundation'
   s.dependency 'XKFileManager'
   s.dependency 'XKHttpNetworkHelper'
