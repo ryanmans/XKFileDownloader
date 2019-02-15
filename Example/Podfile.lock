@@ -1,0 +1,16 @@
+PODS:
+  - XKFileDownloader (0.1.0)
+
+DEPENDENCIES:
+  - XKFileDownloader (from `../`)
+
+EXTERNAL SOURCES:
+  XKFileDownloader:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XKFileDownloader: ce261e0272657f1b3af47ffa02c53d41aa140bd7
+
+PODFILE CHECKSUM: da20d472a76ca3f2723cf01fced380344fd2b20f
+
+COCOAPODS: 1.6.0

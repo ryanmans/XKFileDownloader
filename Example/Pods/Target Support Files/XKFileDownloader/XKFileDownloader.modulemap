@@ -1,0 +1,6 @@
+framework module XKFileDownloader {
+  umbrella header "XKFileDownloader-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "XKFileDownloader",
+  "version": "0.1.0",
+  "summary": "A short description of XKFileDownloader.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/RyanMans/XKFileDownloader",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "RyanMans": "chonglou@sinoxk.com"
+  },
+  "source": {
+    "git": "https://github.com/RyanMans/XKFileDownloader.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "XKFileDownloader/Classes/**/*"
+}

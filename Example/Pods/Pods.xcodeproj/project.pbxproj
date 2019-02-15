@@ -1,0 +1,767 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43F17028F5D684C809AD664B1ED9A289 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		43FE81A5C47F98AE06062EE7DD8BE9C9 /* Pods-XKFileDownloader_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9779FD6E858DF0F802D1FE12E93D1083 /* Pods-XKFileDownloader_Example-dummy.m */; };
+		55F46C44731CB123F67E0BEBB9AE849F /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = F878B053A38EB558975AE9D997D6DB0F /* ReplaceMe.m */; };
+		62362A1C626D1007D2448781825DCE1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		747B00B02405D81E668B29C4A74E5867 /* Pods-XKFileDownloader_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 917AD1435E9BB8A0101081C7649163AD /* Pods-XKFileDownloader_Tests-dummy.m */; };
+		76B8EE377DA32A04CD488970BEBFC61A /* Pods-XKFileDownloader_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CDCD0C79594C2B8D8E4DA4194B9DA958 /* Pods-XKFileDownloader_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9DEBC42A3FFF489C658AC28258FD407 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		DF8308ED8FEC54E82B6D43D9A9E47811 /* Pods-XKFileDownloader_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A922DA62A967B35C3E4424DA4EC42869 /* Pods-XKFileDownloader_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5832C6E6D4C6962E20A1C85C0820C2F /* XKFileDownloader-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84B66CFFB2693FBE58541161468CE97C /* XKFileDownloader-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8410799DAF63470EEB150FF3EA9E067 /* XKFileDownloader-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1750FA14AA4AF8D93697B31C0C1496 /* XKFileDownloader-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0987DCA1D8575237722ACA8A8630E007 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E1B5DF02F794458F3FDB3A363F442BF;
+			remoteInfo = "Pods-XKFileDownloader_Example";
+		};
+		8DD1CCE92B400A830801D8A3A5A55625 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8B1106D2EF4D2827FE27158537325C1;
+			remoteInfo = XKFileDownloader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		059015A3FA53BD37163BFC6EED2BFEE8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0DDBD922C6614A96FF52E6D0A5A60EB9 /* Pods-XKFileDownloader_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XKFileDownloader_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0E3A9D28CD5D44F77AE18F4B19A5AA6B /* Pods-XKFileDownloader_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XKFileDownloader_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1802C201F7099C7A083BEAAB06E7F4D1 /* Pods-XKFileDownloader_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XKFileDownloader_Tests.modulemap"; sourceTree = "<group>"; };
+		1B62F818EE2D41E958A63C086773A8C6 /* XKFileDownloader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XKFileDownloader.framework; path = XKFileDownloader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DA23C7DE2ED8943E6FD7F1CFAEE5676 /* XKFileDownloader-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XKFileDownloader-prefix.pch"; sourceTree = "<group>"; };
+		350DAF747B1F195CB71572708C5D5641 /* Pods-XKFileDownloader_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XKFileDownloader_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		378F278B6E1EEF9C644497E6A706B84D /* Pods-XKFileDownloader_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XKFileDownloader_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		46455CEC3DC041F12B68135051353C3F /* XKFileDownloader-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XKFileDownloader-Info.plist"; sourceTree = "<group>"; };
+		4D260B080A3135AE29C05E5ADDC213CA /* Pods-XKFileDownloader_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XKFileDownloader_Example-Info.plist"; sourceTree = "<group>"; };
+		54702027848B87A030851F1989B0C73F /* Pods-XKFileDownloader_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XKFileDownloader_Tests-Info.plist"; sourceTree = "<group>"; };
+		56A3EEC5636EB25376DC00D717984F89 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5B94306A1F37C9D3B2000A4C3F17C7E1 /* Pods-XKFileDownloader_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XKFileDownloader_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		658C0C646A1270F15081F72F7129FD0D /* Pods-XKFileDownloader_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XKFileDownloader_Example.modulemap"; sourceTree = "<group>"; };
+		84B66CFFB2693FBE58541161468CE97C /* XKFileDownloader-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XKFileDownloader-umbrella.h"; sourceTree = "<group>"; };
+		89C3105F4DAE94E09D58932A07195057 /* XKFileDownloader.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XKFileDownloader.modulemap; sourceTree = "<group>"; };
+		8B6315E2B680D801F2A712B20B55126D /* Pods-XKFileDownloader_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XKFileDownloader_Example.release.xcconfig"; sourceTree = "<group>"; };
+		8BBB796F490DF1FF715A57A3633472E5 /* Pods-XKFileDownloader_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XKFileDownloader_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		917AD1435E9BB8A0101081C7649163AD /* Pods-XKFileDownloader_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XKFileDownloader_Tests-dummy.m"; sourceTree = "<group>"; };
+		917E9C3AD1E564ADC85D310B6AA6B243 /* Pods_XKFileDownloader_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XKFileDownloader_Example.framework; path = "Pods-XKFileDownloader_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9779FD6E858DF0F802D1FE12E93D1083 /* Pods-XKFileDownloader_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XKFileDownloader_Example-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EB84E07BC7FF9F7B38DBF3B3D99BFFD /* Pods-XKFileDownloader_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XKFileDownloader_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9F1750FA14AA4AF8D93697B31C0C1496 /* XKFileDownloader-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XKFileDownloader-dummy.m"; sourceTree = "<group>"; };
+		A922DA62A967B35C3E4424DA4EC42869 /* Pods-XKFileDownloader_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XKFileDownloader_Tests-umbrella.h"; sourceTree = "<group>"; };
+		CAF48B883664F12DB0488B95382BB58E /* Pods_XKFileDownloader_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XKFileDownloader_Tests.framework; path = "Pods-XKFileDownloader_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CC136EBD0BCF0DACBF00F5476030CB09 /* XKFileDownloader.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XKFileDownloader.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CDCD0C79594C2B8D8E4DA4194B9DA958 /* Pods-XKFileDownloader_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XKFileDownloader_Example-umbrella.h"; sourceTree = "<group>"; };
+		E05B81E832758D829F1B987ACD97262E /* Pods-XKFileDownloader_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XKFileDownloader_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E2AD7CF081CC5D4ADFE9F3E891BC9B95 /* XKFileDownloader.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XKFileDownloader.xcconfig; sourceTree = "<group>"; };
+		F878B053A38EB558975AE9D997D6DB0F /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = XKFileDownloader/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06CE61E4DFC003A1C99994D88410B8FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43F17028F5D684C809AD664B1ED9A289 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADE0D1AE7B3A4CF4E7D68388F5390FD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9DEBC42A3FFF489C658AC28258FD407 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF359DBD844B820320B58ACA61996B8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62362A1C626D1007D2448781825DCE1C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07841E79B886E3B60AAF7FE9FC93D857 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				917E9C3AD1E564ADC85D310B6AA6B243 /* Pods_XKFileDownloader_Example.framework */,
+				CAF48B883664F12DB0488B95382BB58E /* Pods_XKFileDownloader_Tests.framework */,
+				1B62F818EE2D41E958A63C086773A8C6 /* XKFileDownloader.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3720B6A0DB512C811920C04A76E961C0 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				56A3EEC5636EB25376DC00D717984F89 /* LICENSE */,
+				059015A3FA53BD37163BFC6EED2BFEE8 /* README.md */,
+				CC136EBD0BCF0DACBF00F5476030CB09 /* XKFileDownloader.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		483120B0ED340736EB85ED5ADA35DA99 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C0AD87AEDFE95BED75A6E0E1191714FF /* XKFileDownloader */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6AFA14B5D5B16DE470B62F30CFFC5B44 /* Pods-XKFileDownloader_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1802C201F7099C7A083BEAAB06E7F4D1 /* Pods-XKFileDownloader_Tests.modulemap */,
+				0E3A9D28CD5D44F77AE18F4B19A5AA6B /* Pods-XKFileDownloader_Tests-acknowledgements.markdown */,
+				5B94306A1F37C9D3B2000A4C3F17C7E1 /* Pods-XKFileDownloader_Tests-acknowledgements.plist */,
+				917AD1435E9BB8A0101081C7649163AD /* Pods-XKFileDownloader_Tests-dummy.m */,
+				54702027848B87A030851F1989B0C73F /* Pods-XKFileDownloader_Tests-Info.plist */,
+				A922DA62A967B35C3E4424DA4EC42869 /* Pods-XKFileDownloader_Tests-umbrella.h */,
+				8BBB796F490DF1FF715A57A3633472E5 /* Pods-XKFileDownloader_Tests.debug.xcconfig */,
+				0DDBD922C6614A96FF52E6D0A5A60EB9 /* Pods-XKFileDownloader_Tests.release.xcconfig */,
+			);
+			name = "Pods-XKFileDownloader_Tests";
+			path = "Target Support Files/Pods-XKFileDownloader_Tests";
+			sourceTree = "<group>";
+		};
+		958D3792D54940AA3EC18850149DD1B4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				89C3105F4DAE94E09D58932A07195057 /* XKFileDownloader.modulemap */,
+				E2AD7CF081CC5D4ADFE9F3E891BC9B95 /* XKFileDownloader.xcconfig */,
+				9F1750FA14AA4AF8D93697B31C0C1496 /* XKFileDownloader-dummy.m */,
+				46455CEC3DC041F12B68135051353C3F /* XKFileDownloader-Info.plist */,
+				1DA23C7DE2ED8943E6FD7F1CFAEE5676 /* XKFileDownloader-prefix.pch */,
+				84B66CFFB2693FBE58541161468CE97C /* XKFileDownloader-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XKFileDownloader";
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C0AD87AEDFE95BED75A6E0E1191714FF /* XKFileDownloader */ = {
+			isa = PBXGroup;
+			children = (
+				F878B053A38EB558975AE9D997D6DB0F /* ReplaceMe.m */,
+				3720B6A0DB512C811920C04A76E961C0 /* Pod */,
+				958D3792D54940AA3EC18850149DD1B4 /* Support Files */,
+			);
+			name = XKFileDownloader;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C41D6DA14AAE2B61AAFCCB031AE96B93 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8CF2FD49D7BB04F2671AFE05D334CBB /* Pods-XKFileDownloader_Example */,
+				6AFA14B5D5B16DE470B62F30CFFC5B44 /* Pods-XKFileDownloader_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				483120B0ED340736EB85ED5ADA35DA99 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				07841E79B886E3B60AAF7FE9FC93D857 /* Products */,
+				C41D6DA14AAE2B61AAFCCB031AE96B93 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8CF2FD49D7BB04F2671AFE05D334CBB /* Pods-XKFileDownloader_Example */ = {
+			isa = PBXGroup;
+			children = (
+				658C0C646A1270F15081F72F7129FD0D /* Pods-XKFileDownloader_Example.modulemap */,
+				378F278B6E1EEF9C644497E6A706B84D /* Pods-XKFileDownloader_Example-acknowledgements.markdown */,
+				350DAF747B1F195CB71572708C5D5641 /* Pods-XKFileDownloader_Example-acknowledgements.plist */,
+				9779FD6E858DF0F802D1FE12E93D1083 /* Pods-XKFileDownloader_Example-dummy.m */,
+				E05B81E832758D829F1B987ACD97262E /* Pods-XKFileDownloader_Example-frameworks.sh */,
+				4D260B080A3135AE29C05E5ADDC213CA /* Pods-XKFileDownloader_Example-Info.plist */,
+				CDCD0C79594C2B8D8E4DA4194B9DA958 /* Pods-XKFileDownloader_Example-umbrella.h */,
+				9EB84E07BC7FF9F7B38DBF3B3D99BFFD /* Pods-XKFileDownloader_Example.debug.xcconfig */,
+				8B6315E2B680D801F2A712B20B55126D /* Pods-XKFileDownloader_Example.release.xcconfig */,
+			);
+			name = "Pods-XKFileDownloader_Example";
+			path = "Target Support Files/Pods-XKFileDownloader_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3DFD61F18953BF2FD029B7E615CFB01B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76B8EE377DA32A04CD488970BEBFC61A /* Pods-XKFileDownloader_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		700B41E2971D5C23BC5A712B7462E5BB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5832C6E6D4C6962E20A1C85C0820C2F /* XKFileDownloader-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D884F2545617639782552441DA5498EE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF8308ED8FEC54E82B6D43D9A9E47811 /* Pods-XKFileDownloader_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		04074D8E9CC49FCFC28EEBDFECF76814 /* Pods-XKFileDownloader_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87D10A011154B6BFB0299165791B355F /* Build configuration list for PBXNativeTarget "Pods-XKFileDownloader_Tests" */;
+			buildPhases = (
+				D884F2545617639782552441DA5498EE /* Headers */,
+				9D126B2026F5823DFF6F41E7A772862B /* Sources */,
+				ADE0D1AE7B3A4CF4E7D68388F5390FD4 /* Frameworks */,
+				526063A304167BCDEB60CADCC3253FFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6332F240CFC2E0FD499B07F03F6A61C9 /* PBXTargetDependency */,
+			);
+			name = "Pods-XKFileDownloader_Tests";
+			productName = "Pods-XKFileDownloader_Tests";
+			productReference = CAF48B883664F12DB0488B95382BB58E /* Pods_XKFileDownloader_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1E1B5DF02F794458F3FDB3A363F442BF /* Pods-XKFileDownloader_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF649B950D1EB92848B509D2657FA940 /* Build configuration list for PBXNativeTarget "Pods-XKFileDownloader_Example" */;
+			buildPhases = (
+				3DFD61F18953BF2FD029B7E615CFB01B /* Headers */,
+				9ED60A6A925A4C34752AF96CB1E4B898 /* Sources */,
+				EF359DBD844B820320B58ACA61996B8D /* Frameworks */,
+				EA7FFB176F9CFBC6B4E3BE5C02B161EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0F7BDF604E8DDD9969DBDAD3B5B1ED2 /* PBXTargetDependency */,
+			);
+			name = "Pods-XKFileDownloader_Example";
+			productName = "Pods-XKFileDownloader_Example";
+			productReference = 917E9C3AD1E564ADC85D310B6AA6B243 /* Pods_XKFileDownloader_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C8B1106D2EF4D2827FE27158537325C1 /* XKFileDownloader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 437FBFBE6FF627EAE44CC5771FDADFF7 /* Build configuration list for PBXNativeTarget "XKFileDownloader" */;
+			buildPhases = (
+				700B41E2971D5C23BC5A712B7462E5BB /* Headers */,
+				8F66068476C8445722C81024A8F30B16 /* Sources */,
+				06CE61E4DFC003A1C99994D88410B8FA /* Frameworks */,
+				7EAE6BF3EBFD59C4029BB7472790D5A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XKFileDownloader;
+			productName = XKFileDownloader;
+			productReference = 1B62F818EE2D41E958A63C086773A8C6 /* XKFileDownloader.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 07841E79B886E3B60AAF7FE9FC93D857 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E1B5DF02F794458F3FDB3A363F442BF /* Pods-XKFileDownloader_Example */,
+				04074D8E9CC49FCFC28EEBDFECF76814 /* Pods-XKFileDownloader_Tests */,
+				C8B1106D2EF4D2827FE27158537325C1 /* XKFileDownloader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		526063A304167BCDEB60CADCC3253FFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EAE6BF3EBFD59C4029BB7472790D5A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA7FFB176F9CFBC6B4E3BE5C02B161EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F66068476C8445722C81024A8F30B16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55F46C44731CB123F67E0BEBB9AE849F /* ReplaceMe.m in Sources */,
+				E8410799DAF63470EEB150FF3EA9E067 /* XKFileDownloader-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D126B2026F5823DFF6F41E7A772862B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				747B00B02405D81E668B29C4A74E5867 /* Pods-XKFileDownloader_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ED60A6A925A4C34752AF96CB1E4B898 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43FE81A5C47F98AE06062EE7DD8BE9C9 /* Pods-XKFileDownloader_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6332F240CFC2E0FD499B07F03F6A61C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-XKFileDownloader_Example";
+			target = 1E1B5DF02F794458F3FDB3A363F442BF /* Pods-XKFileDownloader_Example */;
+			targetProxy = 0987DCA1D8575237722ACA8A8630E007 /* PBXContainerItemProxy */;
+		};
+		B0F7BDF604E8DDD9969DBDAD3B5B1ED2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XKFileDownloader;
+			target = C8B1106D2EF4D2827FE27158537325C1 /* XKFileDownloader */;
+			targetProxy = 8DD1CCE92B400A830801D8A3A5A55625 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05DF210AC65EBB0E593AAF976B2C2177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		3B83AC96D0C3B13EC01000E312817A3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2AD7CF081CC5D4ADFE9F3E891BC9B95 /* XKFileDownloader.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XKFileDownloader/XKFileDownloader-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XKFileDownloader/XKFileDownloader-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XKFileDownloader/XKFileDownloader.modulemap";
+				PRODUCT_MODULE_NAME = XKFileDownloader;
+				PRODUCT_NAME = XKFileDownloader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		421ECB1396280A8D83853C3DDBED1700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		65BD83E54A2CDAC7F35D85646C0A7412 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DDBD922C6614A96FF52E6D0A5A60EB9 /* Pods-XKFileDownloader_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XKFileDownloader_Tests/Pods-XKFileDownloader_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XKFileDownloader_Tests/Pods-XKFileDownloader_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8C7B0BD69F29DBD8974BA0714B2561FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BBB796F490DF1FF715A57A3633472E5 /* Pods-XKFileDownloader_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XKFileDownloader_Tests/Pods-XKFileDownloader_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XKFileDownloader_Tests/Pods-XKFileDownloader_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		90C1950F72DF99A4A603AF08BB226B50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2AD7CF081CC5D4ADFE9F3E891BC9B95 /* XKFileDownloader.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XKFileDownloader/XKFileDownloader-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XKFileDownloader/XKFileDownloader-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XKFileDownloader/XKFileDownloader.modulemap";
+				PRODUCT_MODULE_NAME = XKFileDownloader;
+				PRODUCT_NAME = XKFileDownloader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D01678B83207E998B7CDA2BE50CDEC8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EB84E07BC7FF9F7B38DBF3B3D99BFFD /* Pods-XKFileDownloader_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XKFileDownloader_Example/Pods-XKFileDownloader_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XKFileDownloader_Example/Pods-XKFileDownloader_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D8E3F276DB26BE84DD02687489AD207E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B6315E2B680D801F2A712B20B55126D /* Pods-XKFileDownloader_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XKFileDownloader_Example/Pods-XKFileDownloader_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XKFileDownloader_Example/Pods-XKFileDownloader_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		437FBFBE6FF627EAE44CC5771FDADFF7 /* Build configuration list for PBXNativeTarget "XKFileDownloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90C1950F72DF99A4A603AF08BB226B50 /* Debug */,
+				3B83AC96D0C3B13EC01000E312817A3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421ECB1396280A8D83853C3DDBED1700 /* Debug */,
+				05DF210AC65EBB0E593AAF976B2C2177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87D10A011154B6BFB0299165791B355F /* Build configuration list for PBXNativeTarget "Pods-XKFileDownloader_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C7B0BD69F29DBD8974BA0714B2561FB /* Debug */,
+				65BD83E54A2CDAC7F35D85646C0A7412 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF649B950D1EB92848B509D2657FA940 /* Build configuration list for PBXNativeTarget "Pods-XKFileDownloader_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D01678B83207E998B7CDA2BE50CDEC8A /* Debug */,
+				D8E3F276DB26BE84DD02687489AD207E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
