@@ -38,5 +38,7 @@ TODO: Add long description of the pod here.
 
   s.public_header_files = 'XKFileDownloader/Classes/**/*.h'
   s.frameworks = 'UIKit', 'Foundation'
-  # s.dependency 'AFNetworking', 'XKFileManager','XKHttpNetworkHelper'
+  s.dependency 'XKFileManager'
+  s.dependency 'XKHttpNetworkHelper'
+
 end

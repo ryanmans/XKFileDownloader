@@ -1,15 +1,48 @@
 PODS:
-  - XKFileDownloader (0.1.0)
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - Reachability (3.2)
+  - XKFileDownloader (0.1.0):
+    - XKFileManager
+    - XKHttpNetworkHelper
+  - XKFileManager (0.0.3)
+  - XKHttpNetworkHelper (0.1.0):
+    - AFNetworking
+    - Reachability
 
 DEPENDENCIES:
   - XKFileDownloader (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - Reachability
+    - XKFileManager
+    - XKHttpNetworkHelper
 
 EXTERNAL SOURCES:
   XKFileDownloader:
     :path: "../"
 
 SPEC CHECKSUMS:
-  XKFileDownloader: 1ad50b97bfadcfc903fa87b418f154c26bbe47a4
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  XKFileDownloader: 74bd8a364af590e5290b0f93a9af5cd5a740239a
+  XKFileManager: 3176678f2b9c68bb95113bb9918301831e64f000
+  XKHttpNetworkHelper: ab6e951780dced61dc4fba1b1b87bcd1e307fe45
 
 PODFILE CHECKSUM: da20d472a76ca3f2723cf01fced380344fd2b20f
 

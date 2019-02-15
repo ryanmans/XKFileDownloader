@@ -1,0 +1,6 @@
+framework module XKHttpNetworkHelper {
+  umbrella header "XKHttpNetworkHelper-umbrella.h"
+
+  export *
+  module * { export * }
+}

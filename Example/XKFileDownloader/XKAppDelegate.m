@@ -7,7 +7,6 @@
 //
 
 #import "XKAppDelegate.h"
-
 @implementation XKAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
