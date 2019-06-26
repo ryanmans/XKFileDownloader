@@ -15,7 +15,7 @@ PODS:
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
   - Reachability (3.2)
-  - XKFileDownloader (0.1.0):
+  - XKFileDownloader (1.0.0):
     - XKFileManager
     - XKHttpNetworkHelper
   - XKFileManager (0.0.3)
@@ -40,7 +40,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
-  XKFileDownloader: 74bd8a364af590e5290b0f93a9af5cd5a740239a
+  XKFileDownloader: 52d8a23584db734dca28ea79ec450f5943abe33e
   XKFileManager: 3176678f2b9c68bb95113bb9918301831e64f000
   XKHttpNetworkHelper: ab6e951780dced61dc4fba1b1b87bcd1e307fe45
 

@@ -64,6 +64,17 @@ BOOL  isContainChinese(NSString * str){
     return NO;
 }
 
+//中文转码
+NSString * chineseStringByByAddingPercentEncoding(NSString * url ){
+    if (isContainChinese(url)) {
+        if (@available(iOS 9.0, *)) {
+            return [url stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLQueryAllowedCharacterSet]];
+        }
+        return [url stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+    }
+    return url;
+}
+
 // 根据链接,文件类型创建文件名
 + (NSString*)createFileNameWithURL:(NSString*)URL fileType:(NSString*)fileType{
     return [NSString stringWithFormat:@"%@.%@",MD5Encoding(IsSafeString(URL)),IsSafeString(fileType)];
@@ -112,14 +123,9 @@ BOOL  isContainChinese(NSString * str){
                                progress:(XKHttpProgress _Nullable)progress
                                 success:(void(^)(NSString * _Nullable filePath))success
                                 failure:(XKHttpRequestFailed _Nullable)failure{
-    
-    //如果包含中文，需要编码
-    URL = isContainChinese(URL) ?  [URL stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding] : URL;
-    
     //拼接文件路径
     NSString *filePath = [self fileCacheDirPath:IsSafeString(fileName)];
-    
-    return [XKHttpNetworkHelper Download:URL filePath:filePath progress:progress success:success failure:failure];
+    return [XKHttpNetworkHelper Download:chineseStringByByAddingPercentEncoding(URL) filePath:filePath progress:progress success:success failure:failure];
 }
 
 // 文件恢复下载
@@ -129,15 +135,10 @@ BOOL  isContainChinese(NSString * str){
                                       success:(void(^)(NSString * _Nullable filePath))success
                                       failure:(XKHttpRequestFailed _Nullable)failure{
     
-    //如果包含中文，需要编码
-    URL = isContainChinese(URL) ?  [URL stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding] : URL;
-
     NSData * fileBufferData = [self fileBufferData:URL];
-    
     //拼接文件路径
     NSString *filePath = [self fileCacheDirPath:IsSafeString(fileName)];
-    
-    return [XKHttpNetworkHelper ResumeDownload:URL filePath:filePath fileBufferData:fileBufferData progress:progress success:success failure:failure];
+    return [XKHttpNetworkHelper ResumeDownload:chineseStringByByAddingPercentEncoding(URL) filePath:filePath fileBufferData:fileBufferData progress:progress success:success failure:failure];
 }
 
 //暂停任务
